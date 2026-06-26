@@ -1,0 +1,51 @@
+.radial-menu-root {
+    display: none;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.radial-menu-ring {
+    position: absolute;
+    width: 390px;
+    height: 390px;
+    border-radius: 195px;
+    border-width: 58px;
+    border-color: rgba(14, 17, 25, 0.95);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.radial-menu-button-host {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.radial-menu-button {
+    width: 82px;
+    height: 82px;
+    border-radius: 41px;
+    background-color: rgb(46, 51, 61);
+    color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-color: rgba(242, 242, 242, 0.9);
+    font-size: 22px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.radial-menu-button:hover {
+    background-color: rgb(62, 68, 80);
+    border-color: rgb(255, 255, 255);
+}
+
+.radial-menu-button-close {
+    background-color: rgb(140, 41, 41);
+}
+
+.radial-menu-button-close:hover {
+    background-color: rgb(168, 52, 52);
+}

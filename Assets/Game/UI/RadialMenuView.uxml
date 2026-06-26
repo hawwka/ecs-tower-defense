@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Style src="RadialMenuView.uss" />
+    <ui:VisualElement name="radial-menu-root" class="radial-menu-root">
+        <ui:VisualElement class="radial-menu-ring" />
+        <ui:VisualElement name="button-host" class="radial-menu-button-host" />
+    </ui:VisualElement>
+</ui:UXML>
